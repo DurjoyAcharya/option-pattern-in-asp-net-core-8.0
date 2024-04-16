@@ -1,0 +1,6 @@
+@option_pattern_in_asp_net_core_8._0_HostAddress = http://localhost:5285
+
+GET {{option_pattern_in_asp_net_core_8._0_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

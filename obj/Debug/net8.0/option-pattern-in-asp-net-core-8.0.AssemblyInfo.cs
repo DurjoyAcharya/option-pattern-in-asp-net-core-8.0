@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("option-pattern-in-asp-net-core-8.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e17fc7290be387c8d922ac6d144565577890e84")]
 [assembly: System.Reflection.AssemblyProductAttribute("option-pattern-in-asp-net-core-8.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("option-pattern-in-asp-net-core-8.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

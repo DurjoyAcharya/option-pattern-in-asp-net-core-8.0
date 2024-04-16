@@ -30,3 +30,4 @@
 /home/syndicate/Desktop/option-pattern-in-asp-net-core-8.0/obj/Debug/net8.0/option-pattern-in-asp-net-core-8.0.pdb
 /home/syndicate/Desktop/option-pattern-in-asp-net-core-8.0/obj/Debug/net8.0/option-pattern-in-asp-net-core-8.0.genruntimeconfig.cache
 /home/syndicate/Desktop/option-pattern-in-asp-net-core-8.0/obj/Debug/net8.0/ref/option-pattern-in-asp-net-core-8.0.dll
+/home/syndicate/Desktop/option-pattern-in-asp-net-core-8.0/obj/Debug/net8.0/option-pattern-in-asp-net-core-8.0.sourcelink.json

@@ -8,25 +8,47 @@ public class Controller(IConfiguration configuration) : ControllerBase
 {
     public readonly IConfiguration _configuration = configuration;
 
-    [HttpGet("config")]
-
+    [HttpGet("name")]
     public IActionResult Get()
     {
-        var Title = _configuration.GetValue<string>("Position:Title");
-        var Name = _configuration.GetValue<string>("Position:Name");
+        var Name = _configuration.GetValue<string>("Country:Name");
+        var Capital = _configuration.GetValue<string>("Country:Capital");
         return Ok(new
         {
-            Title = Title,
-            Name = Name
+            Name = Name,
+            Capital = Capital,
         });
     }
-    [HttpGet("info")]
-    public IActionResult Result()
-    {
-        var positionOptions = new PositionOptions();
-        _configuration.GetSection(PositionOptions.Position).Bind(positionOptions);
-        return Ok($"Title: {positionOptions.Title} \n" +
-                       $"Name: {positionOptions.Name}");
-    }
+
+    // [HttpGet("info")]
+    // public IActionResult Result()
+    // {
+    //     var positionOptions = new PositionOptions();
+    //     _configuration.GetSection(PositionOptions.Position).Bind(positionOptions);
+    //     return Ok($"Title: {positionOptions.Title} \n" +
+    //                    $"Name: {positionOptions.Name}");
+    // }
+
+
+    //     public PositionOptions? positionOptions { get; private set; }
+
+
+    // [HttpGet("info")]
+
+    // public IActionResult Result()
+
+    // {
+
+    // positionOptions = _configuration.GetSection(PositionOptions.Position).Get<PositionOptions>();
+
+    // #pragma warning disable CS8602 // Dereference of a possibly null reference.
+
+    // return Ok($"Title: {positionOptions.Title} \n"
+
+    // + $"Name: {positionOptions.Name}");
+
+    // #pragma warning restore CS8602 // Dereference of a possibly null reference.
+
+    // }
 
 }

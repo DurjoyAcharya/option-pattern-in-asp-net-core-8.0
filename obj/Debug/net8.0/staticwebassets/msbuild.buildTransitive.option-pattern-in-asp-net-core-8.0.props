@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/option-pattern-in-asp-net-core-8.0.props" />
+</Project>
